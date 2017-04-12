@@ -1,0 +1,1 @@
+cl /I ..\src /I src GameOfLife.c src\*.c ..\src\*.c

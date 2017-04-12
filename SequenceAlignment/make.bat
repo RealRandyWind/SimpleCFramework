@@ -1,0 +1,1 @@
+cl /I ..\src /I src SequenceAlignment.c src\*.c ..\src\*.c

@@ -1,0 +1,1438 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"N",
+				"NTRIPLE"
+			],
+			[
+				"is",
+				"isMatch"
+			],
+			[
+				"AC",
+				"ACT_SYMS0"
+			],
+			[
+				"NSY",
+				"NSYMS"
+			],
+			[
+				"oS",
+				"oSequenceL"
+			],
+			[
+				"oA",
+				"oAlignment"
+			],
+			[
+				"ACT",
+				"ACT_INSERT"
+			],
+			[
+				"ACT_MA",
+				"ACT_MATCH"
+			],
+			[
+				"Act",
+				"ACT_INSERT"
+			],
+			[
+				"iL",
+				"iLenght"
+			],
+			[
+				"oT",
+				"oTriple"
+			],
+			[
+				"si",
+				"sizeof"
+			],
+			[
+				"Seq",
+				"oSequenceL"
+			],
+			[
+				"oSe",
+				"oSequenceS"
+			],
+			[
+				"nS",
+				"nSize"
+			],
+			[
+				"S",
+				"SYMGAP"
+			],
+			[
+				"ptr",
+				"ptrFile"
+			],
+			[
+				"p",
+				"ptrVersion"
+			],
+			[
+				"o",
+				"oTypeHeader"
+			],
+			[
+				"_FE",
+				"_FTypeHeader"
+			],
+			[
+				"str",
+				"struct\tstruct"
+			],
+			[
+				"oL",
+				"oAlignment"
+			],
+			[
+				"l",
+				"lScore"
+			],
+			[
+				"nL",
+				"nLength"
+			],
+			[
+				"DIs",
+				"DisplayWeight"
+			],
+			[
+				"n",
+				"nIndex"
+			],
+			[
+				"NS",
+				"NSYMS"
+			],
+			[
+				"sFil",
+				"sFileWeightMap"
+			],
+			[
+				"nM",
+				"nMin"
+			],
+			[
+				"Fr",
+				"FreeFScore"
+			],
+			[
+				"FS",
+				"FScore"
+			],
+			[
+				"F",
+				"FScore"
+			],
+			[
+				"pt",
+				"ptrMe"
+			],
+			[
+				"_F",
+				"_FTable"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"s",
+				"struct\tstruct"
+			],
+			[
+				"oP",
+				"oPointer"
+			],
+			[
+				"nP",
+				"nParticles"
+			],
+			[
+				"EF",
+				"EFLAG"
+			],
+			[
+				"raw",
+				"rawFrom"
+			],
+			[
+				"nLay",
+				"nLayer"
+			],
+			[
+				"la",
+				"lLayers"
+			],
+			[
+				"NN",
+				"NN_RESOLUTION"
+			],
+			[
+				"nRe",
+				"nResolution"
+			],
+			[
+				"Con",
+				"ConvNeuron"
+			],
+			[
+				"ic",
+				"inc\t#include \"…\""
+			],
+			[
+				"G",
+				"GenerateFTN"
+			],
+			[
+				"nT",
+				"nTransitivity"
+			],
+			[
+				"FT",
+				"FTN"
+			],
+			[
+				"Monte",
+				"MonteCarlo"
+			],
+			[
+				"dM",
+				"dMin"
+			],
+			[
+				"i",
+				"iTask"
+			],
+			[
+				"oC",
+				"oCopyTo"
+			],
+			[
+				"lF",
+				"lFTNPD"
+			],
+			[
+				"lFT",
+				"lFT0PD"
+			],
+			[
+				"Lf",
+				"lFT0D"
+			],
+			[
+				"GEN",
+				"GENERATE_NTESTS"
+			],
+			[
+				"iM",
+				"iMin"
+			],
+			[
+				"im",
+				"iMax"
+			],
+			[
+				"Gere",
+				"GenerateFT0"
+			],
+			[
+				"D",
+				"DSRand"
+			],
+			[
+				"Prin",
+				"printf"
+			],
+			[
+				"oF",
+				"oFT0W"
+			],
+			[
+				"pte",
+				"ptrFile"
+			],
+			[
+				"Gene",
+				"GenerateFT0"
+			],
+			[
+				"iId",
+				"iIndex"
+			],
+			[
+				"oData",
+				"oDataRead"
+			],
+			[
+				"inc",
+				"inc\t#include \"…\""
+			],
+			[
+				"_",
+				"_oNext"
+			],
+			[
+				"print",
+				"printf\tprintf …"
+			],
+			[
+				"do",
+				"double"
+			],
+			[
+				"oD",
+				"oDeserialize"
+			],
+			[
+				"SE",
+				"SERIALIZE_TYPE_FMETA"
+			],
+			[
+				"Fx_",
+				"Fx_PrintData"
+			],
+			[
+				"oH",
+				"oHeader"
+			],
+			[
+				"nB",
+				"nBytes"
+			],
+			[
+				"nBytesOff",
+				"nBytesOffsetsName"
+			],
+			[
+				"nb",
+				"nBytessData"
+			],
+			[
+				"siz",
+				"sizeof"
+			],
+			[
+				"ma",
+				"malloc"
+			],
+			[
+				"en",
+				"entrys"
+			],
+			[
+				"pr",
+				"predicates"
+			],
+			[
+				"sy",
+				"symbole_stack"
+			],
+			[
+				"for",
+				"for\tFor Loop"
+			],
+			[
+				"sym",
+				"symbole"
+			],
+			[
+				"symbol",
+				"symbol_stack"
+			],
+			[
+				"T",
+				"TZERO"
+			],
+			[
+				"st",
+				"struct\tstruct"
+			],
+			[
+				"pa",
+				"particles"
+			],
+			[
+				"un",
+				"unsigned"
+			],
+			[
+				"EI",
+				"EXIT_SUCCES"
+			],
+			[
+				"FV",
+				"FValue"
+			],
+			[
+				"re",
+				"readfile\tRead File Into Vector"
+			],
+			[
+				"pdb",
+				"pdbParticle"
+			],
+			[
+				"map",
+				"mapParticles"
+			],
+			[
+				"Ne",
+				"NeuralNetworkBuilder"
+			],
+			[
+				"lC",
+				"lConnections"
+			],
+			[
+				"Neu",
+				"NeuralNetwork"
+			],
+			[
+				"BUILDER",
+				"BUILDERNEURON_HIDDEN"
+			],
+			[
+				"TLU",
+				"TLUNetworkBuilder"
+			],
+			[
+				"lCo",
+				"lConnections"
+			],
+			[
+				"a_l",
+				"a_lNeurons"
+			],
+			[
+				"a_lCo",
+				"a_lConnections"
+			],
+			[
+				"dD",
+				"dDecayBound"
+			],
+			[
+				"a_",
+				"a_nTemp"
+			],
+			[
+				"aL",
+				"a_lParms"
+			],
+			[
+				"a_n",
+				"a_nNeurons"
+			],
+			[
+				"dAc",
+				"dActivationHelper"
+			],
+			[
+				"a",
+				"a_nInputs"
+			],
+			[
+				"lP",
+				"a_lParms"
+			],
+			[
+				"nIN",
+				"nInputParms"
+			],
+			[
+				"v",
+				"vector\tstd::vector"
+			],
+			[
+				"Re",
+				"RESOURCE"
+			],
+			[
+				"in",
+				"intervals"
+			],
+			[
+				"de",
+				"define"
+			],
+			[
+				"d",
+				"define"
+			],
+			[
+				"t",
+				"tp\ttemplate <typename ${1:_InputIter}>"
+			],
+			[
+				"flo",
+				"float"
+			],
+			[
+				"bu",
+				"bufferSize"
+			],
+			[
+				"pixe",
+				"pixelShader"
+			],
+			[
+				"px",
+				"pixelPointer"
+			],
+			[
+				"pix",
+				"pixelShader"
+			],
+			[
+				"ker",
+				"kernelX"
+			],
+			[
+				"b",
+				"bufferSize"
+			],
+			[
+				"vid",
+				"VideoPlayer"
+			],
+			[
+				"norm",
+				"norm2"
+			],
+			[
+				"oOp",
+				"oOptions"
+			],
+			[
+				"func",
+				"funcs"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "SequenceAlignment/SequenceAlignment.c",
+			"settings":
+			{
+				"buffer_size": 8995,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/simple_automaton.h",
+			"settings":
+			{
+				"buffer_size": 273,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/simple_miscellaneous.h",
+			"settings":
+			{
+				"buffer_size": 778,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/simple_miscellaneous.c",
+			"settings":
+			{
+				"buffer_size": 33,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\toWeight = NewFWeight(NSYMS + 1,1);\n\toWeight->lData[0][0] = 0;\n\toWeight->lData[1][0] = 1;\n\toWeight->lData[2][0] = 1;\n\toWeight->lData[3][0] = 1;\n\toWeight->lData[4][0] = 2;\n\toWeight->lData[0][1] = 1;\n\toWeight->lData[1][1] = 0;\n\toWeight->lData[2][1] = 1;\n\toWeight->lData[3][1] = 1;\n\toWeight->lData[4][1] = 2;\n\toWeight->lData[0][2] = 1;\n\toWeight->lData[1][2] = 1;\n\toWeight->lData[2][2] = 0;\n\toWeight->lData[3][2] = 1;\n\toWeight->lData[4][2] = 2;\n\toWeight->lData[0][3] = 1;\n\toWeight->lData[1][3] = 1;\n\toWeight->lData[2][3] = 1;\n\toWeight->lData[3][3] = 0;\n\toWeight->lData[4][3] = 2;\n\toWeight->lData[0][4] = 2;\n\toWeight->lData[1][4] = 2;\n\toWeight->lData[2][4] = 2;\n\toWeight->lData[3][4] = 2;\n\toWeight->lData[4][4] = 2;\n\n\tptrFile = fopen(sFileWeight,\"wb\");\n\tSerializeFWeight(oWeight, 1, ptrFile);\n\tfclose(ptrFile);\n\tprintf(\" write weights to \\\"%s\\\" - done\\n\", sFileWeight);\n\n\tptrFile = fopen(\"FSequence.S0.bin\",\"wb\");\n\tSerializeFSequence(GenerateSequence(8000), 1, ptrFile);\n\tfclose(ptrFile);\n\tptrFile = fopen(\"FSequence.L0.bin\",\"wb\");\n\tSerializeFSequence(GenerateSequence(10000), 1, ptrFile);\n\tfclose(ptrFile);\n\n\tptrFile = fopen(\"FSequence.S1.bin\",\"wb\");\n\tSerializeFSequence(GenerateSequence(100), 1, ptrFile);\n\tfclose(ptrFile);\n\tptrFile = fopen(\"FSequence.L1.bin\",\"wb\");\n\tSerializeFSequence(GenerateSequence(1000), 1, ptrFile);\n\tfclose(ptrFile);\n\n\tptrFile = fopen(\"FSequence.S2.bin\",\"wb\");\n\tSerializeFSequence(GenerateSequence(6), 1, ptrFile);\n\tfclose(ptrFile);\n\tptrFile = fopen(\"FSequence.L2.bin\",\"wb\");\n\tSerializeFSequence(GenerateSequence(10), 1, ptrFile);\n\tfclose(ptrFile);",
+			"settings":
+			{
+				"buffer_size": 1570,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					""
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/CUDA C++/cuda-c++.sublime-build",
+					""
+				],
+				[
+					"Packages/CUDA C++/cuda-c++.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 288.0,
+		"last_filter": "c++",
+		"selected_items":
+		[
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"c",
+				"Set Syntax: C++"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sy",
+				"Set Syntax: C++"
+			],
+			[
+				"C",
+				"Build With: C++11"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"jas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"java sc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set mat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"INstal",
+				"Package Control: Install Package"
+			],
+			[
+				"make",
+				"Set Syntax: Makefile Plus"
+			],
+			[
+				"mak",
+				"Build With: Make"
+			],
+			[
+				"C++",
+				"Set Syntax: C++11"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"Matl",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"M",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"Ma",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"Mat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"ma",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"MAt",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"mat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"matl",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"cuda",
+				"Set Syntax: CUDA C++"
+			],
+			[
+				"INsta",
+				"Package Control: Install Package"
+			],
+			[
+				"MAT",
+				"Set Syntax: MATLAB"
+			]
+		],
+		"width": 808.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Gebruiker/Desktop/SimpleFramework",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/deps",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/SequenceAlignment",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/SequenceAlignment/src",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src"
+	],
+	"file_history":
+	[
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/SequenceAlignment/src/FAlignment.h",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/SequenceAlignment/src/FSequence.h",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/SequenceAlignment/src/FScore.h",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src/simple_miscellaneous.h",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/SequenceAlignment/src/FWeight.h",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src/simple_automaton.h",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src/simple_display.h",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src/simple_allocate.h",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src/simple_thread.h",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src/simple_serialize.h",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src/simple_network.h",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/SequenceAlignment/SequenceAlignment.c",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src/simple_miscellaneous.c",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src/simple_thread.c",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src/simple_allocate.c",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src/simple_automaton.c",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src/simple_display.c",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src/simple_log.c",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src/simple_log.h",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src/simple_network.c",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/SequenceAlignment/src/FAlignment.c",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/SequenceAlignment/src/FScore.c",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/Diffusion/Diffusion.c",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/GameOfLive/GameOfLife.c",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/NBodyProblem/NBodyProblem.c",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/SequenceAlignment/src/FSequence.c",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/SequenceAlignment/src/FWeight.c",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src/simple_serialize.c",
+		"/C/Users/Gebruiker/Desktop/Case Studies/NeuralNetwork/NeuralNetwork.c",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src/simple_serializer.h",
+		"/C/Users/Gebruiker/Desktop/SimpleFramework/src/simple_serializer.c",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/SequenceAlignment/src/FWeight.c",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/SequenceAlignment/src/FScore.c",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/SequenceAlignment/src/FWeight.h",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/SequenceAlignment/src/FAlignment.c",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/SequenceAlignment/src/FSequence.h",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/SequenceAlignment/src/FScore.h",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/SequenceAlignment/src/FAlignment.h",
+		"/C/Users/Gebruiker/Desktop/FAlignment.h",
+		"/D/Repositories/communitysmartgrid/apps/stub.device/stub.device.settings",
+		"/D/Repositories/communitysmartgrid/apps/stub.server.analytic.gui/stub.server.analytic.gui.settings",
+		"/D/Repositories/communitysmartgrid/rest/app/routes/result_routes.js",
+		"/D/Repositories/communitysmartgrid/apps/client.device/client.device.settings",
+		"/D/Repositories/communitysmartgrid/apps/server.analytic/server.analytic.settings",
+		"/C/Users/Gebruiker/Desktop/SmartServiceCenter/bin/server.analytic.settings",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/SequenceAlignment/FSequence.S2.bin",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/src/simple_random.c",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/SequenceAlignment/src/FSequence.c",
+		"/C/Users/Gebruiker/Desktop/Case Studies/NeuralNetwork/FConvNet.c",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/SequenceAlignment/make.bat",
+		"/C/Users/Gebruiker/Desktop/WorkingOnRefTrackerSerializer.c",
+		"/C/Users/Gebruiker/Desktop/Case Studies/NeuralNetwork/FConvNet.h",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/src/simple_serializer.c",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/src/simple_serializer.h",
+		"/D/Online/Dropbox/CG/Raytracer/image.h",
+		"/D/Online/Dropbox/Current Projects/JavaScript/templater/templates.js",
+		"/D/Online/Dropbox/Current Projects/ParsArgs.c",
+		"/D/Online/Dropbox/Current Projects/Custom C Package/Data/Data.c",
+		"/D/Online/Dropbox/Current Projects/Custom C Package/Alignment/alignment.c",
+		"/D/Online/Dropbox/Current Projects/Custom C Package/Hog/HOG.c",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/SequenceAlignment/src/FMatrix.h",
+		"/C/Users/Gebruiker/Desktop/Case Studies/ParticleDB/FParticle.h",
+		"/C/Users/Gebruiker/Desktop/Case Studies/ParticleDB/simple_serializer.h",
+		"/C/Users/Gebruiker/Desktop/Case Studies/ParticleDB/simple_serializer.c",
+		"/C/Users/Gebruiker/Desktop/Case Studies/ParticleDB/ParticleDB.c",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/SequenceAlignment/FSequence.c",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/NBodyProblem/make.bat",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/GameOfLive/make.bat",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/Diffusion/make.bat",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/SequenceAlignment/SequenceAlignment.c",
+		"/C/Users/Gebruiker/Desktop/Scientific Computing/SequenceAlignment/FSequence.h",
+		"/D/Repositories/OpenParticleDatabase/rest/app/routes/index.js",
+		"/D/Repositories/OpenParticleDatabase/rest/server.js",
+		"/D/Repositories/OpenParticleDatabase/rest/app/routes/channel_routes.js",
+		"/D/Repositories/OpenParticleDatabase/drivers/c/OpenParticleDatabaseDriver.c",
+		"/D/Repositories/OpenParticleDatabase/rest/app/routes/particle_routes.js",
+		"/D/Repositories/OpenParticleDatabase/rest/config/db.js",
+		"/D/Repositories/OpenParticleDatabase/.gitignore",
+		"/D/Repositories/communitysmartgrid/rest/config/db.js",
+		"/D/Online/Dropbox/Temp/openparticledb.txt",
+		"/C/Users/Gebruiker/Desktop/ParticleDB/FParticle.h",
+		"/C/Users/Gebruiker/Desktop/ParticleDB/ParticleDB.sublime-project",
+		"/D/Repositories/OpenParticleDatabase/web/package.json",
+		"/D/Repositories/OpenParticleDatabase/rest/package.json",
+		"/C/Users/Gebruiker/Desktop/SmartServiceCenter/rest/app/routes/result_routes.js",
+		"/D/Repositories/communitysmartgrid/README.md",
+		"/C/Users/Gebruiker/Desktop/SmartServiceCenter/rest/server.js",
+		"/C/Users/Gebruiker/Desktop/SmartServiceCenter/rest/app/routes/index.js",
+		"/D/Repositories/communitysmartgrid/.gitignore",
+		"/C/Users/Gebruiker/Desktop/SmartServiceCenter/rest/config/db.js",
+		"/C/Users/Gebruiker/Desktop/SmartServiceCenter/rest/package.json",
+		"/C/Users/Gebruiker/Desktop/SmartServiceCenter/rest/app/routes/note_routes.js",
+		"/C/Users/Gebruiker/Desktop/SmartServiceCenter/rest/index.js",
+		"/D/Repositories/OpenParticleDatabase/index.js",
+		"/C/Users/Gebruiker/Desktop/TestCode/make.bat",
+		"/C/Users/Gebruiker/Desktop/TestCode/simple_serializer.h",
+		"/C/Users/Gebruiker/Desktop/TestCode/simple_serializer.c",
+		"/C/Users/Gebruiker/Desktop/TestCode/FParticle.h",
+		"/C/Users/Gebruiker/Desktop/TestCode/ParticleDB.c",
+		"/C/Users/Gebruiker/Desktop/MonteCarlo/MonteCarlo.c",
+		"/C/Users/Gebruiker/Desktop/MonteCarlo/FTN.c",
+		"/C/Users/Gebruiker/Desktop/TestCode/FParticle.c",
+		"/C/Users/Gebruiker/Desktop/MonteCarlo/FTN.h",
+		"/C/Users/Gebruiker/Desktop/NeuralNetwork/ConvNet.c",
+		"/C/Users/Gebruiker/Desktop/NeuralNetwork/ConvNet.h",
+		"/C/Users/Gebruiker/Desktop/MonteCarlo/FTN.results.bin",
+		"/C/Users/Gebruiker/Desktop/MonteCarlo/yvonne_guess.data.attributes.description.text",
+		"/C/Users/Gebruiker/Desktop/MonteCarlo/simple_serializer.h",
+		"/C/Users/Gebruiker/Desktop/TestCode/main.c",
+		"/C/Users/Gebruiker/Desktop/MonteCarlo/main.c",
+		"/C/Users/Gebruiker/Desktop/MonteCarlo/MonteCarlo.sublime-project",
+		"/C/Users/Gebruiker/Desktop/TestCode/simple_serializer_v1.c",
+		"/C/Users/Gebruiker/Desktop/TestCode/ParticleDB.bin",
+		"/C/Users/Gebruiker/Desktop/TestCode/FParticle.cpp",
+		"/C/Users/Gebruiker/Desktop/TestCode/FParticle.hpp",
+		"/C/Users/Gebruiker/Desktop/TestCode/FData.bin",
+		"/C/Users/Gebruiker/Desktop/TestCode/serializer.c",
+		"/C/Users/Gebruiker/Desktop/travlers.ns.txt",
+		"/C/Users/Gebruiker/AppData/Local/Temp/7zOCE1D64F3/MANIFEST.MF",
+		"/C/Users/Gebruiker/AppData/Local/Temp/7zOC676BF81/MANIFEST.MF",
+		"/D/Repositories/SciCom/assignment1/input/nw_test2.txt",
+		"/D/Repositories/SciCom/assignment1/nw3-output2.txt",
+		"/D/Repositories/SciCom/assignment1/nw3-output3.txt",
+		"/D/Repositories/SciCom/assignment1/input/nw_test3.txt",
+		"/D/Repositories/SciCom/nw3-output.txt",
+		"/D/Repositories/SciCom/nw3-output2.txt",
+		"/D/Repositories/SciCom/assignment1/nw3-output.txt",
+		"/D/Online/Dropbox/Studie/Compiler And Constructions/tblprs.cpp"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\Gebruiker\\Desktop\\MonteCarlo,C:\\Users\\Gebruiker\\Desktop\\SimpleFramework",
+			"C:\\Users\\Gebruiker\\Desktop\\MonteCarlo",
+			"D:\\Projects\\Games\\Samples\\StrategyGame\\Source",
+			"D:\\Projects\\Games\\Samples\\StrategyGame\\Source\\StrategyGame"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"ptrWhat, unsigned int eType), unsigned int bSet)",
+			"ptrWhat, unsigned int eType))",
+			"(void* ptrWhat, unsigned int eType));",
+			"(void* ptrWhat, unsigned int eType))",
+			"unsigned int On",
+			"simple_serializer",
+			"nColumns",
+			"nLength",
+			"iLenght",
+			"nLength",
+			"nLenght",
+			"iLenght",
+			"NSYMS",
+			"ACT_MISMATCH",
+			"ACT_INSERT",
+			"ACT_DELETE",
+			"ACT_MATCH",
+			"int",
+			"iTemp",
+			"iMin",
+			"iMax",
+			"oSequence",
+			"oWeight",
+			"nSymbols",
+			"nMin",
+			"FScore",
+			"nLength",
+			"FAlignment",
+			"char",
+			"lCompact",
+			"FSequence",
+			"lData",
+			"FScore",
+			"oScore",
+			"FScore",
+			"FConvNet",
+			"FConvNeuron",
+			"nM",
+			"nN",
+			"oMatrix",
+			"SEQ",
+			"SEQUENCE",
+			"CODON",
+			"particle",
+			"Particle",
+			"channel",
+			"Channel",
+			"particle",
+			"result",
+			"sFileResults",
+			"nResults",
+			"FTN",
+			"FTask",
+			"FTN",
+			"FTask",
+			"Faculty",
+			"NewSampleBuffer",
+			"NewFTNBuffer",
+			"oCopyTo",
+			"oCopyFrom",
+			"RRand",
+			"FT0",
+			"iTest",
+			"FT0",
+			"iParticle",
+			"FParticle",
+			"FChannel",
+			"FParticle",
+			"FChannel",
+			"FParticle",
+			",\n",
+			"}\n",
+			"FData",
+			"FMeta",
+			"FHeader",
+			"oMeta",
+			"ptrPointer",
+			"oDataWrite",
+			"ptrData",
+			"oDataWriteRead",
+			"oData",
+			"oSerialize",
+			"oData",
+			"oMeta",
+			"oHeadersData",
+			"\\lib\\",
+			"\\n",
+			"symbol",
+			"symbole",
+			"stack",
+			"state",
+			"top",
+			"dft",
+			"conv",
+			"(x, y)",
+			"make",
+			"DataVector",
+			"CapsuleComponent",
+			"CapsuleCompone",
+			"CapsuleComponene",
+			"collision",
+			"COLLISION_PROJECTILE",
+			"AO",
+			"SpawnActor",
+			"Spawn",
+			"AddChar",
+			"StaticClass",
+			"SpawnMinions",
+			"Spawn",
+			"res",
+			"TWO",
+			"ONE",
+			"THREE",
+			"TWO",
+			"THREE",
+			"BodyIstaince",
+			"MinionCharClass",
+			"StaticClass",
+			"Fx_AddNeuron",
+			");",
+			"Myriad Pro",
+			"AI",
+			"FStaticMeshComponentRecreateRenderStateContext",
+			"Mesh",
+			"MEsh",
+			"SkeletalMeshComponent",
+			"Mesh",
+			"MEsh"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ptrWhat, unsigned int eType), unsigned int eEvent, unsigned int bSet)",
+			"ptrWhat, unsigned int eType), unsigned int bSet)",
+			"(void* ptrWhat, unsigned int eType), unsigned int bSet);",
+			"(void* ptrWhat, unsigned int eType), unsigned int bSet)",
+			"void On",
+			"simple_serialize",
+			"nColumn",
+			"nA",
+			"iA",
+			"nL",
+			"iL",
+			"ACT_MISMATCHF",
+			"ACT_INSERTF",
+			"ACT_DELETEF",
+			"ACT_MATCHF",
+			"iMin",
+			"iMax",
+			"iTemp",
+			"oMe",
+			"oAlignment",
+			"nMin",
+			"nSymbols",
+			"FWeight",
+			"nSymbols",
+			"FWeight",
+			"int",
+			"short",
+			"int",
+			"lData",
+			"FAlignment",
+			"lCompact",
+			"FSequence",
+			"lNew",
+			"FSequence",
+			"FScore",
+			"nMax",
+			"nMin",
+			"oScore",
+			"ALG",
+			"ALIGNMENT",
+			"TRIPLE",
+			"result",
+			"Result",
+			"particle",
+			"Particle",
+			"channel",
+			"particle",
+			"sFileClasses",
+			"nClasses",
+			"FConvNet",
+			"FConvNeuron",
+			"FConvNet",
+			"FConvNeuron",
+			"Factorial",
+			"SampleBuffer",
+			"NewSampleBuffer",
+			"lCopyTo",
+			"lCopyFrom",
+			"RandR",
+			"FTN",
+			"iTask",
+			"FTask",
+			"iTest",
+			"FT0",
+			"FTask",
+			"FSubject",
+			"FDisorder",
+			"FChannel",
+			"FParticle",
+			"_FHeader",
+			"lMeta",
+			"ptrRaw",
+			"oSerialize",
+			"oToPrint",
+			"ptrTo",
+			"oDataRead",
+			"oDataWrite",
+			"oData",
+			"oDeserialize",
+			"oSerialize",
+			"oHeadersName",
+			"./lib/",
+			" \\\\lib\\\\",
+			" \\lib\\",
+			" ",
+			"state",
+			"symbol",
+			"symbole_stack",
+			"symbole",
+			"state",
+			"idft",
+			"dft",
+			"(u, v)",
+			"DataTensor",
+			"THREE",
+			"TWO",
+			"ONE",
+			"TWO",
+			")\n{\n\treturn this;\n}\n",
+			");\n{\n\treturn this;\n}\n",
+			"BuilderAllocator",
+			"$L0",
+			"L$0",
+			")\n{\n\treturn 0;\n}\n",
+			")\n{\n\t\n}\n",
+			"NeuralNetworkBuilder* NeuralNetworkBuilder::",
+			"Convolution",
+			"NeuronBuilder",
+			"NeuralNetworkBuilder",
+			"NeuronBuilder",
+			"NeuralNetworkBuilder",
+			"NEURALNETWORKBUILDER_HPP",
+			"TLUNeuronBuilder",
+			"TLUNEURONBUILDER_HPP",
+			"TLUNetworkBuilder",
+			"TLUNETWORKBUILDER",
+			"\\U$1",
+			"\\L$1",
+			"$1\\L",
+			"\\L$1",
+			"L$1",
+			"$1\\L$2",
+			"",
+			"MConnectionManager",
+			"MSettingsManager",
+			"Theta",
+			"Tau",
+			"sdintr"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "SequenceAlignment/SequenceAlignment.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8995,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C Improved/C Improved.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "src/simple_automaton.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140,
+								140
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/simple_miscellaneous.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								301,
+								301
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/simple_miscellaneous.c",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 33,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C Improved/C Improved.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								711,
+								711
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C Improved/C Improved.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.521446078431,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "",
+	"project": "ScientificComputing.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 288.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,1 @@
+cl /I ..\src /I src Diffusion.c src\*.c ..\src\*.c
