@@ -3,31 +3,52 @@
 
 enum EMiscellaneousEvent
 {
-	EMiscellaneousError,
-	EMiscellaneousWarning,
-	NEMiscellaneous
+	MiscellaneousEError,
+	MiscellaneousEWarning,
+	_EMiscellaneousSize
 };
+
+typedef void (*FreeFunction)(void* ptrMe, unsigned int nSize);
+typedef void* (*NewFunction)(void* ptrIninitialize, unsigned int nSize);
+typedef void* (*CopyFunction)(void* ptrMe);
+typedef void (*EventFunction)(void* ptrWhat, unsigned int eType);
+typedef int (*CompareFunction)(void* ptrMe, void* ptrWith);
+typedef void* (*HashFunction)(void* ptrMe);
 
 typedef struct FMap
 {
-	void* ptrValue;
-	unsigned int _nNext;
-	struct FMap* _lNext; 	
+	unsigned int nSize;
+	HashFunction _Hash;
+	CompareFunction _Compare;
+	void* _ptrMap; 	
 } FMap;
+
+typedef struct FQueue
+{
+	unsigned int nSize;
+	CompareFunction _Compare;
+	void* _ptrFirst;
+	void* _ptrLast;
+} FQueue;
+
+typedef struct FStack
+{
+	unsigned int nSize;
+	void* _ptrTop;
+} FStack;
 
 typedef struct FEvent
 {
-	unsigned int eType;
-	void (*Function)(unsigned int* ptrWhat, unsigned int eType);
-	unsigned int _nNext;
-	struct FEvent* _lNext;
+	EventFunction* lFunction;
+	unsigned int nFunction;
+	unsigned int eEvent;
 } FEvent;
 
-FEvent* NewFEvent(unsigned int nEvents, unsigned int nSize);
+FEvent* NewFEvent(unsigned int nFunction, unsigned int nSize);
 void FreeFEvent(FEvent* oMe, unsigned int nSize);
 void _FreeFEvent(void* ptrMe, unsigned int nSize);
 void* _NewFEvent(const void* ptrInitialize, unsigned int nSize);
 
-void OnMiscellaneousEvent(void (*Function)(unsigned int* ptrWhat, unsigned int eType), unsigned int eEvent, unsigned int bSet);
+void OnMiscellaneousEvent(EventFunction Function, unsigned int eEvent, unsigned int bSet);
 
 #endif
