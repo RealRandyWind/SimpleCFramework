@@ -1,5 +1,5 @@
 #include "FSequence.h"
-#include <stdlib.h>
+#include "simple_allocate.h"
 #include "simple_serialize.h"
 
 FSequence* NewFSequence(unsigned int nLength, unsigned int nSize)
@@ -8,11 +8,11 @@ FSequence* NewFSequence(unsigned int nLength, unsigned int nSize)
 	unsigned int nBytes;
 	char* lData;
 	if(!nLength || !nSize) { return 0; }
-	lNew = (FSequence*) malloc(sizeof(FSequence) * nSize);
+	lNew = (FSequence*) SMalloc(sizeof(FSequence) * nSize);
 	nBytes = sizeof(char) * nLength;
 	while(nSize--)
 	{
-		lData = (char*) malloc(nBytes);
+		lData = (char*) SMalloc(nBytes);
 		lNew[nSize].nLength = nLength;
 		lNew[nSize].nBytes = nBytes;
 		lNew[nSize].lData = lData;
@@ -21,43 +21,36 @@ FSequence* NewFSequence(unsigned int nLength, unsigned int nSize)
 	return lNew;
 }
 
-void FreeFSequence(FSequence* oMe, unsigned int nSize)
+void FreeFSequence(FSequence* lMe, unsigned int nSize)
 {
-	_FreeFSequence(oMe, nSize);
-}
-
-void _FreeFSequence(void* ptrMe, unsigned int nSize)
-{
-	FSequence* oMe;
-	if(!ptrMe || !nSize) { return; }
-	oMe = (FSequence*)ptrMe;
-	while(nSize--) { free(oMe[nSize].lData); }
-	free(oMe);
+	if(!lMe || !nSize) { return; }
+	while(nSize--) { SFree(lMe[nSize].lData); }
+	SFree(lMe);
 }
 
 
-void SerializeFSequence(FSequence* oSerialize, unsigned int nSize, FILE* ptrFile)
+void SerializeFSequence(FSequence* lMe, unsigned int nSize, FILE* ptrFile)
 {
 	unsigned int iIndex;
-	if(!oSerialize || !nSize) { return; }
+	if(!lMe || !nSize) { return; }
 
-	SerializeRaw(oSerialize, sizeof(FSequence), nSize, ptrFile);
+	SerializeRaw(lMe, sizeof(FSequence), nSize, ptrFile);
 	for (iIndex = 0; iIndex < nSize; ++iIndex)
 	{
-		SerializeRaw(oSerialize[iIndex].lData, 1, oSerialize[iIndex].nBytes, ptrFile);
+		SerializeRaw(lMe[iIndex].lData, 1, lMe[iIndex].nBytes, ptrFile);
 	}
 }
 
-FSequence* DeserializeFSequence(FSequence* oDeserialize, unsigned int* ptrSize, FILE* ptrFile)
+FSequence* DeserializeFSequence(FSequence* lInto, unsigned int* ptrSize, FILE* ptrFile)
 {
 	unsigned int iIndex, nSize;
-	if(!oDeserialize) { return 0; }
+	if(!lInto) { return 0; }
 
-	oDeserialize = DeserializeRaw(oDeserialize, &nSize, ptrFile);
+	lInto = DeserializeRaw(lInto, &nSize, ptrFile);
 	for (iIndex = 0; iIndex < nSize; ++iIndex)
 	{
-		oDeserialize[iIndex].lData = DeserializeRaw(oDeserialize[iIndex].lData, 0, ptrFile);
+		lInto[iIndex].lData = DeserializeRaw(lInto[iIndex].lData, 0, ptrFile);
 	}
 	if(ptrSize) { (*ptrSize) = nSize; }
-	return oDeserialize;
+	return lInto;
 }

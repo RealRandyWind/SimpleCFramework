@@ -1,0 +1,1 @@
+cl /I ..\src /I src GraphMatch.c src\*.c ..\src\*.c

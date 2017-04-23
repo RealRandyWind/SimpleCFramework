@@ -1,0 +1,1 @@
+cl /I ..\src /I src DecayClosure.c src\*.c ..\src\*.c

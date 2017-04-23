@@ -26,10 +26,8 @@ typedef struct FScore
 
 FScore* NewFScore(unsigned int nMin, unsigned int nMax, unsigned int nSize);
 void FreeFScore(FScore* oScore, unsigned int nSize);
-void _FreeFScore(void* ptrMe, unsigned int nSize);
-void* _NewFScore(const void* ptrInitialize, unsigned int nSize);
 
-void SerializeFScore(FScore* oSerialize, unsigned int nSize, FILE* ptrFile);
-FScore* DeserializeFScore(FScore* oDeserialize, unsigned int* ptrSize, FILE* ptrFile);
+void SerializeFScore(FScore* lMe, unsigned int nSize, FILE* ptrFile);
+FScore* DeserializeFScore(FScore* lInto, unsigned int* ptrSize, FILE* ptrFile);
 
 #endif

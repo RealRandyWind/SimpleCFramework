@@ -12,10 +12,8 @@ typedef struct FWeight
 
 FWeight* NewFWeight(unsigned int nSymbols, unsigned int nSize);
 void FreeFWeight(FWeight* oScore, unsigned int nSize);
-void _FreeFWeight(void* ptrMe, unsigned int nSize);
-void* _NewFWeight(const void* ptrInitialize, unsigned int nSize);
 
-void SerializeFWeight(FWeight* oSerialize, unsigned int nSize, FILE* ptrFile);
-FWeight* DeserializeFWeight(FWeight* oDeserialize, unsigned int* ptrSize, FILE* ptrFile);
+void SerializeFWeight(FWeight* lMe, unsigned int nSize, FILE* ptrFile);
+FWeight* DeserializeFWeight(FWeight* lInto, unsigned int* ptrSize, FILE* ptrFile);
 
 #endif

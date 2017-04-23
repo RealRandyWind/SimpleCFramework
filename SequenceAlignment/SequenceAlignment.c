@@ -22,20 +22,21 @@
 
 #define SYMIDX(TRIPLE,I) ((TRIPLE) >> ((I % (NTRIPLE)) * 2)) & SEQT0M
 
-void DisplaySequence(FSequence* oMe, unsigned int nSize, unsigned int nColumn)
+void DisplaySequence(FSequence* lMe, unsigned int nSize, unsigned int nColumn)
 {
 	unsigned int nLength, iLenght;
 	char oTriple;
 	char lMap[NSYMS] = DNASYMS;
 	//char* lBuffer = (char*)malloc(sizeof(char) * (nColumn + nLength + 1));
-	if(!oMe || !nSize) { return; }
+	if(!lMe || !nSize) { return; }
 	while(nSize--)
 	{
-		nLength = oMe[nSize].nLength;
+		nLength = lMe[nSize].nLength;
 		if(!nLength) { continue; }
-		for(iLenght = 0; iLenght < nLength; ++iLenght) {
+		for(iLenght = 0; iLenght < nLength; ++iLenght)
+		{
 			if(!(iLenght % nColumn)) { printf("\n"); }
-			oTriple = oMe[nSize].lData[iLenght];
+			oTriple = lMe[nSize].lData[iLenght];
 			printf("%c%c%c"
 				,lMap[oTriple & SEQT0M]
 				,lMap[(oTriple >> 2) & SEQT0M]
@@ -44,19 +45,20 @@ void DisplaySequence(FSequence* oMe, unsigned int nSize, unsigned int nColumn)
 	}
 }
 
-void DisplayAlignment(FAlignment* oMe, unsigned int nSize, unsigned int nColumn)
+void DisplayAlignment(FAlignment* lMe, unsigned int nSize, unsigned int nColumn)
 {
 	unsigned int nLength, iLenght;
 	char oTriple;
 	char lMap[NSYMS] = ACT_SYMS0;
-	if(!oMe || !nSize) { return; }
+	if(!lMe || !nSize) { return; }
 	while(nSize--)
 	{
-		nLength = oMe[nSize].nLength;
+		nLength = lMe[nSize].nLength;
 		if(!nLength) { continue; }
-		for(iLenght = 0; iLenght < nLength; ++iLenght) {
+		for(iLenght = 0; iLenght < nLength; ++iLenght)
+		{
 			if(!(iLenght % nColumn)) { printf("\n"); }
-			oTriple = oMe[nSize].lData[iLenght];
+			oTriple = lMe[nSize].lData[iLenght];
 			printf("%c%c%c"
 				,lMap[oTriple & SEQT0M]
 				,lMap[(oTriple >> 2) & SEQT0M]
@@ -65,53 +67,55 @@ void DisplayAlignment(FAlignment* oMe, unsigned int nSize, unsigned int nColumn)
 	}
 }
 
-void DisplayWeight(FWeight* oMe, unsigned int nSize)
+void DisplayWeight(FWeight* lMe, unsigned int nSize)
 {
 	unsigned int nLength, nSymbols, iLenght;
 	unsigned int nValue;
-	if(!oMe || !nSize) { return; }
+	if(!lMe || !nSize) { return; }
 	while(nSize--)
 	{
-		nSymbols = oMe[nSize].nSymbols;
+		nSymbols = lMe[nSize].nSymbols;
 		nLength = nSymbols * nSymbols;
 		if(!nLength) { continue; }
-		for(iLenght = 0; iLenght < nLength; ++iLenght) {
+		for(iLenght = 0; iLenght < nLength; ++iLenght)
+		{
 			if(!(iLenght % nSymbols)) { printf("\n"); }
-			nValue = oMe[nSize].lData[0][iLenght];
+			nValue = lMe[nSize].lData[0][iLenght];
 			printf("%2u ", nValue);
 		}
 	}
 }
 
-void DisplayScore(FScore* oMe, unsigned int nSize)
+void DisplayScore(FScore* lMe, unsigned int nSize)
 {
 	unsigned int nLength, nColumn, iLenght;
 	unsigned int nValue;
-	if(!oMe || !nSize) { return; }
+	if(!lMe || !nSize) { return; }
 	while(nSize--)
 	{
-		nColumn = oMe[nSize].nMax;
-		nLength = oMe[nSize].nMin * nColumn;
+		nColumn = lMe[nSize].nMax;
+		nLength = lMe[nSize].nMin * nColumn;
 		if(!nLength) { continue; }
-		for(iLenght = 0; iLenght < nLength; ++iLenght) {
+		for(iLenght = 0; iLenght < nLength; ++iLenght)
+		{
 			if(!(iLenght % nColumn)) { printf("\n"); }
-			nValue = oMe[nSize].lData[0][iLenght];
+			nValue = lMe[nSize].lData[0][iLenght];
 			printf("%1u|%03u ", nValue >> SCOREFK, nValue & SCOREM);
 		}
 	}
 }
 
-void DisplayAlignedSequence(FAlignment* oMe, FSequence* oSequenceS, FSequence* oSequenceL, unsigned int nSize, unsigned int nColumn)
+void DisplayAlignedSequence(FAlignment* lMe, FSequence* oSequenceS, FSequence* oSequenceL, unsigned int nSize, unsigned int nColumn)
 {
 	unsigned int nA, iA, iL, iS, iColumn, nBuffer;
 	char oA, oS, oL, eFlag;
 	char lMap[NSYMS] = DNASYMS;
 	char *sA, *sS, *sL;
-	if(!oMe || !oSequenceS || !oSequenceL || !nSize) { return; }
+	if(!lMe || !oSequenceS || !oSequenceL || !nSize) { return; }
 	while(nSize--)
 	{
 		iColumn = 0;
-		nA = oMe[nSize].nLength * 3;
+		nA = lMe[nSize].nLength * 3;
 		if(!nA) { continue; }
 		nBuffer = 0 + nA * 3 + 2;
 		char* lBuffer = malloc(sizeof(char) * nBuffer + 1);
@@ -122,7 +126,7 @@ void DisplayAlignedSequence(FAlignment* oMe, FSequence* oSequenceS, FSequence* o
 		iS = 0; iL = 0;
 		for(iA = 0; iA < nA; ++iA) {
 			oS = oSequenceS[nSize].lData[iS / NTRIPLE];
-			oA = oMe[nSize].lData[iA / NTRIPLE];
+			oA = lMe[nSize].lData[iA / NTRIPLE];
 			oL = oSequenceL[nSize].lData[iL / NTRIPLE];
 			eFlag = (oA >> ((iA % NTRIPLE) * NSYMBITS)) & SEQT0M;
 			if(eFlag == ACT_DELETE) { sS[iA] = '-'; }
@@ -132,7 +136,7 @@ void DisplayAlignedSequence(FAlignment* oMe, FSequence* oSequenceS, FSequence* o
 			else { sL[iA] = lMap[(oL >> ((iL % NTRIPLE) * NSYMBITS)) & SEQT0M]; ++iL; }
 		}
 		printf("%s", lBuffer);
-		free(lBuffer);
+		SFree(lBuffer);
 	}
 }
 

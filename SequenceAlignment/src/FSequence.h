@@ -42,10 +42,8 @@ typedef struct FSequence
 
 FSequence* NewFSequence(unsigned int nLength, unsigned int nSize);
 void FreeFSequence(FSequence* oScore, unsigned int nSize);
-void _FreeFSequence(void* ptrMe, unsigned int nSize);
-void* _NewFSequence(const void* ptrInitialize, unsigned int nSize);
 
-void SerializeFSequence(FSequence* oSerialize, unsigned int nSize, FILE* ptrFile);
-FSequence* DeserializeFSequence(FSequence* oDeserialize, unsigned int* ptrSize, FILE* ptrFile);
+void SerializeFSequence(FSequence* lMe, unsigned int nSize, FILE* ptrFile);
+FSequence* DeserializeFSequence(FSequence* lInto, unsigned int* ptrSize, FILE* ptrFile);
 
 #endif
